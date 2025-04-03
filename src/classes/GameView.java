@@ -181,7 +181,9 @@ public class GameView implements IGameView {
         // Colors
         Color awarenessBackground = new Color(38, 38, 38);
         Color awarenessGForeground = new Color(0, 150, 18);
+        @SuppressWarnings("unused")
         Color awarenessRForeground = new Color(150, 0, 18);
+        @SuppressWarnings("unused")
         Color awarenessYForeground = new Color(150, 150, 18);
         
         awarenessBar.setValue(guardAwareness);
